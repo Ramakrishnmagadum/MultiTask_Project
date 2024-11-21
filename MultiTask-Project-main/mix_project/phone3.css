@@ -1,0 +1,71 @@
+*{
+    margin: 0px;
+    
+}
+
+#body{
+    background-color: blanchedalmond;
+}
+
+#motionline{
+    background-color:silver;
+}
+                           /* head line codes */
+#headline{
+    color: black;
+    font-size: 12px;
+    text-align: center;
+    margin: opx;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    font-stretch: extra-expanded;
+    animation-name: headline;
+    animation-duration: 6200ms;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;   
+}
+
+@keyframes headline {
+    form{
+       color: white;
+    }to{
+        color:maroon;
+    }  
+}
+
+
+                    /************ nav bar code ************/
+#navbar{
+    margin-top: 0px;
+    display: flex;
+    gap: 15px;
+    background-color:yellow;
+}
+
+.navline{
+    color: orangered;
+    font-size: 12px;
+    font-weight: bolder;
+}
+#homehead{
+    margin-left: 20px;
+}
+
+.navline:hover{
+    background-color: white;
+    border-radius: 10px;
+    color: black;
+    transition: all 10ms ;
+    transform: scale(1.2);
+}
+#content2{
+   color: black;
+   font-size: 12px;
+   font-weight: bold;
+   font-family: 'Times New Roman', Times, serif;
+   text-align: center;   
+}
+
+.task:hover{
+    color:red;
+}

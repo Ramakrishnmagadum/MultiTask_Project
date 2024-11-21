@@ -1,0 +1,65 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    
+}
+.container{
+    width: 98%;
+    height: 100vh;
+    display: flex;
+    background-color:ligh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border:5px solid black;
+
+    
+}
+
+.calculater{
+    width: 250px;
+    height: 300px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+   
+}
+
+.display input{
+    
+   background-color: lightslategray;
+width: 240px;
+height: 50px;
+
+}
+
+.keyboard input{
+    padding: 10px;   
+   width: 57px; 
+   background-color: black;
+     
+}
+
+input[type="button"]{
+    color: red;
+}
+
+/* attribute selector */
+input[value="="]{
+    width: 118px;
+}
+
+
+ #backbutton{
+    position: relative;
+    margin-bottom: 320px;
+ }
+ 
+ #backbuttonimg{
+     width: 25px;
+     height: 20px;
+ 
+ } 
+
+
+

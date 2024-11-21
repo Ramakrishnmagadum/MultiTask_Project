@@ -1,0 +1,43 @@
+#box{
+width: 500px;
+height: 500px;
+margin: auto;
+background-color: lightcyan;
+border: 5px solid black;
+}
+
+input {
+   
+    margin-top: 20px;
+    
+}
+
+/* #result{
+    width: 200px;
+    height: 200px;
+   margin-left: 55%;
+    margin-top: 20px;
+    border: 5px solid red;
+    border-radius: 20%;
+    background-color:yellow;
+    text-align: center;
+} */
+
+#result{
+    width: 200px;
+    height: 240px; 
+}
+
+#finish{
+    float:right;
+}
+
+#backbutton{
+    margin-right: 90%;
+ }
+ 
+ #backbuttonimg{
+     width: 25px;
+     height: 20px;
+ 
+ }

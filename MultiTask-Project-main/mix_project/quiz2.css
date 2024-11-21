@@ -1,0 +1,40 @@
+#box{
+    width: 300px;
+    height: 450px;
+    margin: auto;
+    background-color: lightcyan;
+    border: 5px solid black;
+    }
+    
+    input {
+       
+        margin-top: px;
+        
+    }
+    
+    #result{
+        
+        width: 150px;
+        height: 190px;
+       /* margin-left: 45%;
+        
+        margin-top: 20px;
+        border: 5px solid red;
+        border-radius: 20%;
+        background-color:yellow;
+        text-align: center; */
+    }
+    
+    #finish{
+        float:right;
+    }
+
+    #backbutton{
+        margin-right: 90%;
+     }
+     
+     #backbuttonimg{
+         width: 25px;
+         height: 20px;
+     
+     }

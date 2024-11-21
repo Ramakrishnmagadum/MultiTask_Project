@@ -1,0 +1,96 @@
+#ouuter{
+    margin: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#inner{
+    width: 247px;
+    height: 500px;
+    background-color: white;
+    border: 5px black solid;
+    overflow: hidden;
+}
+
+/* #whiteline{
+    margin-left: 33%;
+    width: 31.253%;
+    height: 100%;
+    background-color: black;
+    /* border: 5px white solid; */
+    /* border-left: 5px white solid;
+    border-right: 5px white solid; */
+
+
+#stopeedcar{
+    width: 75px;
+    height: 60px;
+    background-color: red;
+    position: relative;
+    top:400px;
+   
+  
+   left:0px;
+}
+
+#movecar{
+    width: 75px;
+    height: 60px;
+    background-color: red;
+    
+    /* this line is very important */
+    position: relative;
+    top:0px;
+   
+    left:0px;
+     
+  animation-name: move;
+    animation-duration: 2s;
+    animation-timing-function: linear; 
+    animation-iteration-count: infinite;
+   
+    /* animation: move 2s linear infinite; */
+    
+
+
+}
+
+
+
+@keyframes move {
+0%{ 
+    top: 0px;
+}
+100%{
+    top: 500px;
+}
+    
+}
+
+
+/* score card */
+#score{
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    background-color: yellow;
+    border: 2px solid red ;
+    border-radius: 20%;
+    display: none;
+}
+
+#button{
+    width: 100px;
+    height: 50px;
+    /* margin-left: 50px; */
+}
+
+
+#speed{
+    width: 60px;
+    height: 40px;
+    position: relative;
+    top: 430px;
+    left: 50px;
+}
